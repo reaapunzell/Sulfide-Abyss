@@ -2,20 +2,31 @@
     background-color: #060029;
     color: white;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.home-page, .page-two, .kea-introduction {
+    height: 100vh;
+}
+
 
 header{
     font-size:16px;
     font-style: italic;
     text-align: right;
     margin-right: 20px;
+
 }
+
 .home-page{
-    margin: 10px;
     display:flex;
     align-items: center;
     justify-content: center;
-
+    padding: 10px;
 }
+
 .left-container{
     display:flex;
     flex-direction: column;
@@ -36,10 +47,10 @@ header{
     height: 36px;
     padding: 0 12px;
     font-size: 14px;
-    color: white;
+    color: #E381E5FF;
     border-style:solid;
     border-width: 1px;
-    border-color: white;
+    border-color: #E381E5FF;
     border-radius: 18px;
 }
 
@@ -54,16 +65,17 @@ header{
     left: 16px;
     bottom: 10px;
 }
-.button-next{
+
+button{
 
         width: 156px;
         height: 36px;
         padding: 0 12px;
         font-size: 14px;
-        color: white;
+        color: #E381E5FF;
         border-style:solid;
         border-width: 1px;
-        border-color: white;
+        border-color: #E381E5FF;
         border-radius: 18px;
 }
 df-messenger {
@@ -71,9 +83,96 @@ df-messenger {
     position: fixed;
     --df-messenger-font-color: #000;
     --df-messenger-font-family: Google Sans;
-    --df-messenger-chat-background: #f3f6fc;
-    --df-messenger-message-user-background: #d3e3fd;
-    --df-messenger-message-bot-background: #fff;
+    --df-messenger-chat-background: #ffffff;
+    --df-messenger-message-user-background: #e3e1e4;
+    --df-messenger-message-bot-background: rgb(255, 229, 255);
     bottom: 16px;
     right: 16px;
   }
+
+.kea-introduction{
+    margin: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kea-introduction-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kea-welcome{
+    font-size: 24px;
+}
+
+.kea-image{
+    width:300px;
+    height:250px;
+}
+
+
+.kea-introduction-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:40px;
+    gap:30px;
+}
+
+.topic-button{
+    padding: 40px;
+    font-size: 24px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.creature-topic{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.creature-info{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.creature-image{
+  width:361px;
+  height:274px;
+
+}
+.creature-name{
+    font-size: 40px;
+}
+
+
+.learn-more-btn{
+    padding:20px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.creature-info-heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+.sulfide-abyss-topic{
+    display:flex;
+    align-items: center;
+}
+.sulfide-abyss-topic p {
+    font-size: 20px;
+    text-wrap: wrap;
+}

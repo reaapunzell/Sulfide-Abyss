@@ -10,10 +10,11 @@
     <header>
         <nav> 
                 <h3>Sulfide Abyss</h3>
+                <button id="homeButton">Home</button>
         </nav>
     </header>
 
-    <section class="home-page" style="display:in-line">
+<section class="home-page" >
     <div class="left-container">
         <h2>Enter the world of </br> Sulfide Abyss</h2>
         <button class="get-started">Get Started</button>
@@ -28,15 +29,81 @@
 <section class="page-two" style="display:none">
     <div class="left-container">
     <h2>A world that exists in </br> the depths of Europa</h2>
-    <button class="button-next">></button>
+    <button class="button-next">Next</button>
     </div>
 
     <div class="right-container">
-        <img src="src/images/Europa gif.gif" alt="image of Europa">
-
+        <img class="kea-image" src="src/images/Europa gif.gif" alt="image of Europa">
     </div>
 </section>
 
+<section class="kea-introduction" style="display:none">
+    <div class="kea-welcome">
+    <h2>Hi, I'm Kea. I am an ai assistant living in Sulfide Abyss. What would you like to know about?</h2>
+</div>
+<div class="kea-introduction-container">
+<div class="left-container">
+    <img class="kea-image" src="src/images/Kea (1).png" alt="vector-drawing-spacehelmet">
+</div>
+<div class="kea-introduction-buttons">
+    <button class="topic-button" >Sulfide Abyss</button>
+    <button  class="topic-button" >Creatures</button>
+    <button  class="topic-button" >Plants</button>
+</div>
+</div>
+</section>
+
+<section class="sulfide-abyss-topic"style="display:none">
+    <img src="src/images/Europa gif.gif" alt="image of Europa">
+    <p>In the depths of the ocean, far beyond the reach of sunlight, lies a mysterious and thriving world <br> sustained by chemosynthesis rather than photosynthesis. Unlike life on Earth, which relies on sunlight, <br> this unique ecosystem survives thanks to chemicals like hydrogen sulfide and methane, abundant <br> near hydrothermal vents. Welcome to Sulfide Abyss, an extraordinary place where creatures <br> and plants have adapted to live in total darkness, extreme pressure, and toxic gases</p>
+
+</section>
+
+<section class="creature-topic"style="display:none" >
+    <div class="creature-info-heading">
+        <h2>The creatures of Sulfide Abyss</h2>
+
+    </div>
+<div class="creatures">
+    <div class="creature-topic">
+    <div class="creature-info">
+        <img class="creature-image" src="src/images/Abyssal Glider 1.png" alt="3d art of Abyssal Glider">
+        <h2 class="creature-name">Abyssal Glider</h2>
+        <p><p>Abyssal Glider
+            A manta ray-like creature that glides gracefully through the water, </br> feeding on bioluminescent plants like the Pyrite Kelp. It has glowing blue-green </br> edges that help it navigate in the dark and sense chemical changes in the water.</p></p>
+        <button class="learn-more-btn">Learn More</button>
+    </div>
+    <div class="creature-info">
+        <img class="creature-image" src="src/images/Glowback Scavenger 1.png" alt="3d art of Glowback Scavanger">
+        <h2 class="creature-name">Abyssal Glider</h2>
+        <p>A crab-like creature with bioluminescent spots hat scuttles </br>talong the ocean floor,  scraping plant material for food. </br>Its bioluminescent spots make it blend into the glowing hydrothermal environment.</p>
+        <button class="learn-more-btn">Learn More</button>
+    </div>
+</div>
+</div>
+</section>
+
+
+<section class="plant-topic"style="display:none">
+    <div class="creature-info-heading">
+        <h2>The plants of Sulfide Abyss</h2>
+    </div>
+
+    <div class="creature-topic">
+    <div class="creature-info">
+        <img class="creature-image" src="src/images/Ventaris Frondalis.png" alt="3d art of Abyssal Glider">
+        <h2 class="creature-name">Ventaris Frondalis</h2>
+        <p>Known as the Chemosynthetic Coralweed, Ventaris Frondalis thrives around <br> hydrothermal vents. Its tall, ribbon-like fronds glow faintly, curling upwards in <br> search of chemical-rich currents. Hosting symbiotic bacteria, Ventaris converts hydrogen sulfide <br>and methane into energy, allowing it to flourish in extreme darkness and pressure</p>
+        <button class="learn-more-btn">Learn More</button>
+    </div>
+    <div class="creature-info">
+        <img class="creature-image" src="src/images/Sulfur Bloom Anemone.png" alt="3d art of Glowback Scavanger">
+        <h2 class="creature-name">Abyssal Glider</h2>
+        <p>Resembling a flower, this plant captures sulfur particles <br> with its glowing tendrils.It also filter-feeds on organic matter floating by, <br> releasing bursts of sulfur gas as a defense mechanism.</p>
+        <button class="learn-more-btn">Learn More</button>
+    </div>
+</div>
+</section>
 <footer>
     <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
@@ -51,6 +118,8 @@
 </df-messenger>
 
 </footer>
+<script src="src/index.js"></script>
+
 </body>
 
 </html>
