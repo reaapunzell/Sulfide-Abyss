@@ -1,0 +1,79 @@
+*{
+    background-color: #060029;
+    color: white;
+}
+
+header{
+    font-size:16px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px;
+}
+.home-page{
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.left-container h2{
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.home-page-info{
+    font-style: italic;
+}
+
+.get-started{
+    width: 156px;
+    height: 36px;
+    padding: 0 12px;
+    font-size: 14px;
+    color: white;
+    border-style:solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.page-two{
+        margin: 10px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.from-home-page-to-next-text{
+    left: 16px;
+    bottom: 10px;
+}
+.button-next{
+
+        width: 156px;
+        height: 36px;
+        padding: 0 12px;
+        font-size: 14px;
+        color: white;
+        border-style:solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 18px;
+}
+df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
